@@ -1,5 +1,5 @@
 // Learning C++ 
-// Exercise 03_02
+// Exercise 03_02 MODIFICADO POR ANDRES
 // Classes, by Eduardo Corpeño 
 
 #include <iostream>
@@ -36,13 +36,15 @@ private:
 };
 
 int main(){
-    cow my_cow;
+    /*cow my_cow;
     my_cow.age = 5;
     my_cow.name = "Betsy";
     my_cow.purpose = cow_purpose::dairy;
     std::cout << my_cow.name << " is a type-" << (int)my_cow.purpose << " cow." << std::endl;
-    std::cout << my_cow.name << " is " << my_cow.age << " years old." << std::endl;
+    std::cout << my_cow.name << " is " << my_cow.age << " years old." << std::endl;*/
     
+    //Errors -> check code in 03_03b 
+
     std::cout << std::endl << std::endl;
     return (0);
 }
