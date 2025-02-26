@@ -25,7 +25,7 @@ int main(){
     a = cow_purpose::meat;
 
     // std::cout << "a = " << a << std::endl; --> error, 'cout' is not defined for the specific class
-    std::cout << "a = " << (int) a << std::endl;
+    std::cout << "a = " << (int) a << std::endl; //cast it into int, this is a BEST PRACTICE
 #endif
 
 #ifdef CPP
