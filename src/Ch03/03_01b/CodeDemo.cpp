@@ -1,5 +1,5 @@
 // Learning C++ 
-// Exercise 03_01
+// Exercise 03_01 MODIFICADO POR ANDRES
 // Structures, by Eduardo Corpeño 
 
 #include <iostream>
