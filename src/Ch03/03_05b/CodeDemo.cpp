@@ -4,7 +4,8 @@
 
 #include <iostream>
 #include <string>
-
+#include "cow.h"
+/*
 enum class cow_purpose {dairy, meat, hide, pet};
 
 class cow{
@@ -31,6 +32,7 @@ private:
     int age;
     cow_purpose purpose;
 };
+*/ //All the commented section is now on the header and implementation files
 
 int main(){
     cow my_cow("Hildy", 7, cow_purpose::pet);
